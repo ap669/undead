@@ -1,0 +1,41 @@
+/* Header animation */
+.logo-name img {
+    animation: shake 1s infinite;
+}
+.logo-name img:hover {
+    animation: shake 10ms infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .logo-name h1 {
+    animation: glowing 5s infinite;
+  }
+
+@keyframes glowing {
+    25% { text-shadow: 0 0 1px white, 0 0 2px green, 0 0 3px greenyellow;}
+    50% { text-shadow: none;}
+    75% { text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 8px green, 0 0 10px greenyellow;}
+    100% { text-shadow: none;}
+}
+.navigation ul li:hover {
+    animation: navibox 3s;
+}
+@keyframes navibox {
+    25% {border: 2px solid green;}
+    50% {border: 2px solid green;
+        box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px white, 0 0 6px green, 0 0 8px green, 0 0 10px greenyellow;}
+    75% {border: 2px solid green;}
+    100% {border:none;}
+}

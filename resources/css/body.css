@@ -1,0 +1,123 @@
+/* Homepage style */
+.body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.introduction {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid rgba(56, 15, 0, 0.562);
+    border-radius: 2rem 2rem 0 0;
+    margin: 0 4rem;
+    border-bottom: transparent;
+}
+
+.introduction img {
+    width: 30rem;
+    height: 15rem;
+    border: 2px solid rgb(255, 116, 65);
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px orange, 0 0 8px orangered;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.introduction h1{
+    font-size: 2rem;
+    color: orange;
+    text-align: center;
+    font-style: italic;
+    margin: 0 10rem;
+}
+
+.introduction2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid rgba(56, 15, 0, 0.562);
+    margin: 1rem 4rem;
+    border-top: transparent;
+    border-radius: 0 0 2rem 2rem;
+
+}
+
+.introduction2 img {
+    width: 25rem;
+    height: 12.5rem;
+    border: 2px solid burlywood;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px orange, 0 0 8px orangered;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.introduction2 h1{
+    width: 100%;
+    font-size: 2rem;
+    color: orangered;
+    text-align: center;
+    margin: 0 10rem;
+}
+
+.introduction3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 4rem;
+}
+
+.info {
+    width: 40%;
+  
+    border: 3px solid orangered;
+    border-radius: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info img{
+    width: 11rem;
+    height: 14rem;
+    margin: 1rem;
+    border: 2px solid orangered;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
+}
+
+.info p{
+    text-align: center;
+    color: orangered;
+    font-size: 1.75rem;
+    margin: 1rem;
+}
+
+.info2 {
+    width: 60%;
+    border: 3px solid orangered;
+    border-radius: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info2 img{
+    width: 11rem;
+    height: 14rem;
+    margin: 1rem;
+    border: 2px solid orangered;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
+}
+
+.info2 p{
+    text-align: center;
+    color: orangered;
+    font-size: 1.75rem;
+    margin: 1rem;
+}
