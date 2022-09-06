@@ -108,3 +108,27 @@
     100% {text-shadow: none;
         color:orange}
 }
+
+#undead1 {animation: undeadOpacity 5s infinite linear}
+#undead2 {animation: undeadOpacity 5s infinite linear 2.5s}
+@keyframes undeadOpacity {
+    25% {opacity: 0.5;}
+    50% {opacity: 0;}
+    75% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+.founderpass img{
+    animation: circle 10s infinite linear;
+}
+
+.founderpass img:hover {
+    animation-play-state: paused;
+}
+
+@keyframes circle {
+    25%{transform: rotate(90deg)}
+    50%{transform: rotate(180deg)}
+    75%{transform: rotate(270deg)}
+    100%{transform: rotate(1800deg)}
+}

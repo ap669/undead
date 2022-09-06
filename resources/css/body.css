@@ -156,6 +156,7 @@
 }
 
 .collection-banner {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -174,4 +175,75 @@
     border: 3px solid orangered;
     border-radius: 1.5rem;
     box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
+}
+
+.undead {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+.undead img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem;
+}
+
+.undead a{
+    text-decoration: none;
+    color: orangered;
+    text-decoration: none;
+}
+
+.undead h2{
+    border: 2px solid orangered;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
+    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px orangered, 0 0 5px orangered, 0 0 7px red;
+    transition-duration: 1s;
+}
+
+.undead a h2:hover {
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red, 0 0 13px red;
+}
+
+.founderpass {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.founderpass div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.founderpass img {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 4rem;
+    box-shadow: 0 0 1px black, 0 0 3px rgb(37, 37, 37), 0 0 5px rgb(83, 83, 83), 0 0 8px rgb(194, 194, 194), 0 0 10px rgb(255, 255, 255);
+}
+.founderpass a {
+    text-decoration: none;
+    color: orangered;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.founderpass h2{
+    border: 2px solid orangered;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
+    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px orangered, 0 0 5px orangered, 0 0 7px red;
+    transition-duration: 1s;
+}
+
+.founderpass a h2:hover {
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red, 0 0 13px red;
 }
