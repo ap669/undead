@@ -125,5 +125,24 @@
 .partner {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.partner h1{
+    width: 100%;
+    text-align: center;
+}
+
+.partner-icon {
+    display: flex;
+}
+
+.partner-icon img {
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem;
+    border: 3px solid green;
+    border-radius: 1rem;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px green, 0 0 8px green, 0 0 10px greenyellow, 0 0 12px greenyellow;
 }
