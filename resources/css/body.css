@@ -200,7 +200,7 @@
     margin: 1rem;
     box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
     text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px orangered, 0 0 5px orangered, 0 0 7px red;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .undead a h2:hover {
@@ -239,7 +239,7 @@
     margin: 1rem;
     box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
     text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px orangered, 0 0 5px orangered, 0 0 7px red;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .founderpass a h2:hover {

@@ -1,0 +1,37 @@
+.prizes {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prizes h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.prize-info {
+    width: 100%;
+    text-align: center;
+}
+
+.prize-info img {
+  width: 20rem;
+  height: 20rem;
+  border: 4px solid green;
+  margin-top: 2rem;
+  box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px green, 0 0 8px green, 0 0 10px greenyellow;
+}
+
+.prize-info p {
+    font-size: 2rem;
+    margin: 0 20rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#prize-rekt {
+    width: 40rem;
+    height: 20rem;
+}

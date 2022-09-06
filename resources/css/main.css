@@ -23,7 +23,6 @@ body {
     align-items: center;
     border-top: 2px solid green;
     padding: 2rem 0rem 2rem 2rem;
-
     box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 7px greenyellow;
 }
 
