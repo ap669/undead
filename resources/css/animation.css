@@ -26,7 +26,8 @@
 @keyframes glowing {
     25% { text-shadow: 0 0 1px white, 0 0 2px green, 0 0 3px greenyellow;}
     50% { text-shadow: none;}
-    75% { text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 8px green, 0 0 10px greenyellow;}
+    75% { text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 8px green, 0 0 10px greenyellow;
+    color:greenyellow}
     100% { text-shadow: none;}
 }
 .navigation ul li:hover {
@@ -38,4 +39,53 @@
         box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px white, 0 0 6px green, 0 0 8px green, 0 0 10px greenyellow;}
     75% {border: 2px solid green;}
     100% {border:none;}
+}
+/* Body animation */
+.info2 img {
+    animation: moving 10s infinite linear;
+}
+
+.info2 img:hover {
+    animation: moving 100ms infinite linear;
+}
+
+@keyframes moving {
+    25% {transform: translateX(0.5rem)}
+    50% {transform: translateX(0rem)}
+    75% {transform: translateX(-0.5rem)}
+    100% {transform: translateX(0rem)}
+}
+
+.info img {
+    animation: glowing2 2s infinite;
+}
+
+.info img:hover {
+    animation: glowing2 200ms infinite;
+}
+@keyframes glowing2 {
+    50% {box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px white, 0 0 8px orangered, 0 0 10px orangered, 0 0 12px orange, 0 0 14px red, 0 0 17px red;}
+    100% {box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;}
+}
+
+/* Partner animation */
+#a { animation: textLightning 2s infinite linear}
+#b { animation: textLightning 2s infinite linear 200ms}
+#c { animation: textLightning 2s infinite linear 400ms}
+#d { animation: textLightning 2s infinite linear 600ms}
+#e { animation: textLightning 2s infinite linear 800ms}
+#f { animation: textLightning 2s infinite linear 1s}
+#g { animation: textLightning 2s infinite linear 1.2s}
+#h { animation: textLightning 2s infinite linear 1.4s}
+#i { animation: textLightning 2s infinite linear 1.6s}
+#j { animation: textLightning 2s infinite linear 1.8s}
+#k { animation: textLightning 2s infinite linear 2s}
+#l { animation: textLightning 2s infinite linear 2.2s}
+#m { animation: textLightning 2s infinite linear 2.4s}
+#n { animation: textLightning 2s infinite linear 2.6s}
+@keyframes textLightning {
+    50%{ text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 8px green, 0 0 10px greenyellow;
+    color: greenyellow}
+    100% {text-shadow: none;
+    color:green}
 }

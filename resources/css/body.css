@@ -121,3 +121,9 @@
     font-size: 1.75rem;
     margin: 1rem;
 }
+
+.partner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
