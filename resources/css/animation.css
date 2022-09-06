@@ -89,3 +89,22 @@
     100% {text-shadow: none;
     color:green}
 }
+
+/* Collection animation */
+#aa { animation: collectionLightning 2s infinite linear}
+#kk { animation: collectionLightning 2s infinite linear}
+#bb { animation: collectionLightning 2s infinite linear 200ms}
+#jj { animation: collectionLightning 2s infinite linear 200ms}
+#cc { animation: collectionLightning 2s infinite linear 400ms}
+#ii { animation: collectionLightning 2s infinite linear 400ms}
+#dd { animation: collectionLightning 2s infinite linear 600ms}
+#hh { animation: collectionLightning 2s infinite linear 600ms}
+#ee { animation: collectionLightning 2s infinite linear 800ms}
+#gg { animation: collectionLightning 2s infinite linear 800ms}
+#ff { animation: collectionLightning 2s infinite linear 1s}
+@keyframes collectionLightning {
+    50%{ text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px orangered, 0 0 8px orangered, 0 0 10px red;
+        color: orangered}
+    100% {text-shadow: none;
+        color:orange}
+}

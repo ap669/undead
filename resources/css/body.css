@@ -146,3 +146,32 @@
     border-radius: 1rem;
     box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px green, 0 0 8px green, 0 0 10px greenyellow, 0 0 12px greenyellow;
 }
+
+/* Collection section style */
+.collection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection-banner h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: orange
+}
+
+.collection-banner img {
+    width:30rem;
+    height:12.5rem;
+    border: 3px solid orangered;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red;
+}
