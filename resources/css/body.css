@@ -191,7 +191,6 @@
 .undead a{
     text-decoration: none;
     color: orangered;
-    text-decoration: none;
 }
 
 .undead h2{
@@ -230,7 +229,6 @@
 .founderpass a {
     text-decoration: none;
     color: orangered;
-    text-decoration: none;
     margin-top: 1rem;
 }
 
@@ -246,4 +244,82 @@
 
 .founderpass a h2:hover {
     box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px orangered, 0 0 8px orangered, 0 0 10px red, 0 0 13px red;
+}
+
+.undead-game {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-intro {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-icon {
+    width: 100%;
+    text-align: center;
+}
+
+.game-icon img{
+    width: 25rem;
+    height: 30rem;
+}
+
+.game-intro h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 5rem;
+}
+
+.game-info {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#game {
+    width: 25rem;
+    height: 25rem;
+    border: 3px solid green;
+}
+
+.game-info p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 5rem;
+}
+
+.sub-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-nav ul {
+    display: flex;
+}
+.sub-nav ul li{
+    display: flex;
+    border: 2px solid green;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px green, 0 0 8px green, 0 0 10px greenyellow;
+    transition-duration: 1s;
+}
+.sub-nav ul li:hover {
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px white, 0 0 8px green, 0 0 10px green, 0 0 12px greenyellow;
+}
+.sub-nav a {
+    text-decoration: none;
+    color: green;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px green, 0 0 5px green, 0 0 7px greenyellow;
 }

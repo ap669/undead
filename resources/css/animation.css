@@ -83,6 +83,18 @@
 #l { animation: textLightning 2s infinite linear 2.2s}
 #m { animation: textLightning 2s infinite linear 2.4s}
 #n { animation: textLightning 2s infinite linear 2.6s}
+
+#a1 { animation: textLightning 3s infinite linear}
+#a3 { animation: textLightning 3s infinite linear}
+#a5 { animation: textLightning 3s infinite linear}
+#a7 { animation: textLightning 3s infinite linear}
+#a9 { animation: textLightning 3s infinite linear}
+#a11 { animation: textLightning 3s infinite linear}
+#a2 { animation: textLightning 3s infinite linear 1.5s}
+#a4 { animation: textLightning 3s infinite linear 1.5s}
+#a6 { animation: textLightning 3s infinite linear 1.5s}
+#a8 { animation: textLightning 3s infinite linear 1.5s}
+#a10 { animation: textLightning 3s infinite linear 1.5s}
 @keyframes textLightning {
     50%{ text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 8px green, 0 0 10px greenyellow;
     color: greenyellow}
