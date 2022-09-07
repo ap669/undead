@@ -1,0 +1,18 @@
+.disclaimer-intro {
+    width: 100%;
+    text-align: center;
+}
+
+.disclaimer-intro img {
+    width: 30rem;
+    height: 10rem;
+}
+
+.disclaimer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid green;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 5rem;
+}

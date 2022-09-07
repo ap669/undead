@@ -1,0 +1,49 @@
+.team-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.team-heading h1{
+    font-size: 4rem;
+    color: transparent;
+}
+
+#amb {
+    color: white;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.member{
+    width: 20rem;
+    height: 25rem;
+    border: 3px goldenrod solid;
+    border-radius: 2rem;
+    margin: 1rem;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px gold, 0 0 5px goldenrod;
+}
+
+.member img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
+    border: 2px goldenrod solid;
+    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px gold;
+}
+
+.member h2 {
+    color: goldenrod;
+}
+
+.member h3 {
+    color: goldenrod;
+}
