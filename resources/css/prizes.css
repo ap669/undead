@@ -35,3 +35,81 @@
     width: 40rem;
     height: 20rem;
 }
+
+@media only screen and (max-width: 1200px) {
+    .prizes h1 {
+        font-size: 3rem;
+    }
+    
+    .prize-info img {
+      width: 15rem;
+      height: 15rem;
+      border: 3px solid green;
+      margin-top: 1.75rem;
+      box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px green, 0 0 6px green, 0 0 8px greenyellow;
+    }
+    
+    .prize-info p {
+        font-size: 1.75rem;
+        margin: 0 5rem;
+        color: white;
+        margin-bottom: 2rem;
+    }
+    
+    #prize-rekt {
+        width: 30rem;
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .prizes h1 {
+        font-size: 2.5rem;
+    }
+    
+    .prize-info img {
+      width: 10rem;
+      height: 10rem;
+      border: 2px solid green;
+      margin-top: 1.75rem;
+      box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px green, 0 0 6px greenyellow;
+    }
+    
+    .prize-info p {
+        font-size: 1.25rem;
+        margin: 0 4rem;
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+    
+    #prize-rekt {
+        width: 20rem;
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .prizes h1 {
+        font-size: 2rem;
+    }
+    
+    .prize-info img {
+      width: 7.5rem;
+      height: 7.5rem;
+      border: 2px solid green;
+      margin-top: 1.75rem;
+      box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px green, 0 0 5px greenyellow;
+    }
+    
+    .prize-info p {
+        font-size: 0.8rem;
+        margin: 0 0.5rem;
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+    
+    #prize-rekt {
+        width: 15rem;
+        height: 7.5rem;
+    }
+}

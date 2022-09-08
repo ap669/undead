@@ -47,3 +47,98 @@
 .member h3 {
     color: goldenrod;
 }
+
+@media only screen and (max-width: 1200px) {
+    .team-heading h1{
+        font-size: 3rem;
+
+    }
+    .team {
+        margin: 1.5rem;
+    }
+    
+    .member{
+        width: 16rem;
+        height: 20rem;
+        border: 2px goldenrod solid;
+        border-radius: 0.8rem;
+        margin: 0.75rem;
+    }
+    
+    .member img {
+        width: 10rem;
+        height: 10rem;
+        margin-top: 1.5rem;
+        border: 1px goldenrod solid;
+    }
+    
+    .member h2 {
+        font-size: 1.25rem;
+    }
+    
+    .member h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .team-heading h1{
+        font-size: 2rem;
+
+    }
+    .team {
+        margin: 1.25rem;
+    }
+    
+    .member{
+        width: 14.4rem;
+        height: 18rem;
+        border: 2px goldenrod solid;
+        border-radius: 0.75rem;
+        margin: 0.5rem;
+    }
+    
+    .member img {
+        width: 9rem;
+        height: 9rem;
+        margin-top: 1.25rem;
+    }
+    .member h2 {
+        font-size: 1rem;
+    }
+    
+    .member h3 {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .team-heading h1{
+        font-size: 1.5rem;
+
+    }
+    .team {
+        margin: 0.5rem;
+    }
+    
+    .member{
+        width: 12.8rem;
+        height: 16rem;
+        border: 2px goldenrod solid;
+        border-radius: 0.75rem;
+        margin: 0.5rem;
+    }
+    
+    .member img {
+        width: 9rem;
+        height: 9rem;
+        margin-top: 1.25rem;
+    }
+    .member h2 {
+        font-size: 1rem;
+    }
+    
+    .member h3 {
+        font-size: 0.8rem;
+    }
+}
