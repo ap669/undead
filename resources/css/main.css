@@ -20,10 +20,11 @@ body {
 .footer {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     border-top: 2px solid green;
     padding: 2rem 0rem 2rem 2rem;
-    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 5px green, 0 0 7px greenyellow;
+    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px green, 0 0 5px greenyellow;
 }
 
 .copyright{
@@ -61,6 +62,29 @@ body {
     
     .link a{
         font-size: 0.75rem;
+        padding: 0.4rem;
+        border: 2px solid green;
+        background-color: green;
+        border-radius: 0.25rem;
+        transition-duration: 0.5s;
+    }
+    .link a:hover{
+        padding: 0.4rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .copyright{
+        width:100%;
+        padding: 0.2rem;
+        margin-right: 0.5rem;
+        text-align: center;
+    }
+    .copyright h3{
+        font-size: 0.6rem;
+    }
+    
+    .link a{
+        font-size: 0.6rem;
         padding: 0.4rem;
         border: 2px solid green;
         background-color: green;

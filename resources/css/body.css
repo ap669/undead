@@ -544,7 +544,7 @@
         margin: 0.1rem;
         border: 1px solid green;
         border-radius: 0.5rem;
-        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px green, 0 0 6px greenyellow;
+        box-shadow: 0 0 1px white, 0 0 3px green, 0 0 4px greenyellow;
     }
     .collection-banner h1{
         font-size: 1.5rem;
@@ -570,11 +570,11 @@
         padding: 0.5rem;
         margin: 0.25rem;
         font-size: 0.8rem;
-        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px orangered, 0 0 6px red;
+        box-shadow: 0 0 1px white, 0 0 3px orangered, 0 0 4px red;
         text-shadow: 0 0 1px white, 0 0 2px red;
     }
     .undead a h2:hover, .founderpass a h2:hover{
-        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px orangered, 0 0 6px red;
+        box-shadow: 0 0 1px white, 0 0 3px orangered, 0 0 4px red;
     }
     .founderpass {
         margin-top: 1rem;
@@ -608,19 +608,125 @@
         margin: 0 1rem;
     }
     .sub-nav ul li{
-        border: 2px solid green;
+        border: 1px solid green;
         padding: 0.25rem;
         margin: 0.1rem;
         border-radius: 0.5rem;
-        box-shadow: 0 0 1px white, 0 0 3px green, 0 0 4px greenyellow;
+        box-shadow: 0 0 1px white, 0 0 2px green, 0 0 3px greenyellow;
         transition-duration: 1s;
     }
     .sub-nav ul li:hover {
-        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px white, 0 0 6px white, 0 0 8px green, 0 0 10px greenyellow;
+        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px green, 0 0 6px greenyellow;
     }
     .sub-nav a {
         color: green;
-        font-size: 1rem;
-        text-shadow: 0 0 1px white, 0 0 2px green, 0 0 3px greenyellow;
+        font-size: 0.8rem;
+        text-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .introduction {
+        border: 2px solid rgba(56, 15, 0, 0.562);
+        border-radius: 0.5rem 0.5rem 0 0;
+        margin: 0;
+        border-bottom: transparent;
+    }
+    .introduction img {
+        width: 12rem;
+        height: 6rem;
+        border: 1px solid rgb(255, 116, 65);
+        box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px orange, 0 0 6px orangered;
+        border-radius: 0.5rem;
+        margin: 0.25rem;
+    }
+    .introduction h1{
+        font-size: 0.8rem;
+        color: orange;
+        margin: 0 0.8rem;
+    }
+    .introduction2 {
+        border: 2px solid rgba(56, 15, 0, 0.562);
+        margin: 0.25rem 0rem;
+        border-top: transparent;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    .introduction2 img {
+        width: 12rem;
+        height: 6rem;
+        border-radius: 0.5rem;
+        margin: 0.25rem;
+        box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px orange, 0 0 6px orangered;
+        border: 1px solid burlywood;
+    }
+    .introduction2 h1{
+        font-size: 0.8rem;
+        color: orangered;
+        margin: 0 1rem;
+    }
+    .info, .info2 {
+        border-radius: 0.4rem;
+        margin: 0.25rem;
+    }
+    .info2{
+        width:90%
+    }
+    .info img, .info2 img{
+        width: 4.75rem;
+        height: 6rem;
+        margin: 0.4rem;
+    }
+    .info p, .info2 p{
+        font-size: 0.75rem;
+        margin: 0.2rem;
+    }
+    .partner h1{
+      font-size: 1rem;
+    }
+    .partner-icon img {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0.1rem;
+        border: 1px solid green;
+        border-radius: 0.5rem;
+    }
+    .collection-banner h1{
+        font-size: 1.25rem;
+    }
+    .collection-banner img {
+        width:16rem;
+        height:7.2rem;
+        border-radius: 0.75rem;
+        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 4px orangered, 0 0 6px red;
+    }
+    .undead img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.75rem;
+    }
+    .founderpass img {
+        width: 4rem;
+        height: 4rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 0 0 1px black, 0 0 3px rgb(37, 37, 37), 0 0 5px rgb(83, 83, 83), 0 0 8px rgb(194, 194, 194);
+    }
+
+    .game-icon img{
+        width: 12.8rem;
+        height: 16rem;
+    }
+    .game-intro h1{
+        font-size: 1.25rem;
+        margin: 0 1rem;
+    }
+    #game {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+    
+    .game-info p{
+        font-size: 0.8rem;
+        margin: 0 0.8rem;
     }
 }
