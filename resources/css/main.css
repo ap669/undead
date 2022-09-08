@@ -29,7 +29,6 @@ body {
 .copyright{
     padding: 0.5rem;
     margin-right: 1rem;
-    border-radius: 1.5rem;
 }
 
 .link {
@@ -49,4 +48,26 @@ body {
     padding: 0.5rem;
     background-color: transparent;
     box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px green;
+}
+
+@media only screen and (max-width: 900px) {
+    .copyright{
+        padding: 0.25rem;
+        margin-right: 0.75rem;
+    }
+    .copyright h3{
+        font-size: 0.75rem;
+    }
+    
+    .link a{
+        font-size: 0.75rem;
+        padding: 0.4rem;
+        border: 2px solid green;
+        background-color: green;
+        border-radius: 0.25rem;
+        transition-duration: 0.5s;
+    }
+    .link a:hover{
+        padding: 0.4rem;
+    }
 }
